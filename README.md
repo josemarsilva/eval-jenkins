@@ -50,26 +50,82 @@ Este repositório projeto de avaliação da ferramenta **Jenkins**.
 
 #### 3.3.1. Instalação Jenkins em Windows - passo a passo ####
 
-* passo-01-de-n: download do binário de instalação do Jenkins de acordo com sistema operacional
+* passo-01-de-03: download do binário de instalação do Jenkins de acordo com sistema operacional (windows)
 
 ```html
 https://jenkins.io/download/
 ```
 
 
-* passo-02-de-n: Configuração inicial, instalação e atualização dos plugins mais usados
+* passo-02-de-03: Configuração inicial, instalação e atualização dos plugins mais usados
 
-  * Escolha um diretório para instalação do binário
+  * descompactar o binário de instalação em um diretório
+  * executar o binário de instalação 'jenkins.msi'
+  * definir o diretório destino Ex: C:\Program Files (x86)\Jenkins\
+  * acesse o Jenkins pela primeira vez pelo browser
   
-```cmd
-C:\Jenkins> 
+```browser
+http://localhost:8080
 ```
+
+  * copie e cole no campo password o conteúdo do arquivo (C:\Program Files (x86)\Jenkins\secrets\initialAdminPassword) que contém a senha do Jenkins 
+
+```browser
++-------------------------------------------------------------+
+| Unlock Jenkins                                              |
+|    :       :                                                |
+| C:\Program Files (x86)\Jenkins\secrets\initialAdminPassword |
+| Administrator password                                      | 
+| [                   ]                                       | <- paste here
++-------------------------------------------------------------+
+```
+
+  * instale os plugins sugeridos
+
+```browser
++------------------------------------------------+
+| Customize Jenkins                              |
+| +------------------+                           |
+| |Install Suggested |                           |
+| | Pluggins         |                           | <- click button
+| +------------------+                           |
++------------------------------------------------+
+```browser
+
+  * crie o usuário de administração
+
+```browser
++------------------------------------------------+
+| Create first admin user                        |
+|   Username: [admin]                            |
+|   Password: [admin]                            |
+|   E-mail:   [admin@jenkins.com]                | <- click button Save and Continue
++------------------------------------------------+
+```
+
+  * Configure Jenkins URL
+
+```browser
++------------------------------------------------+
+|   Jenkins URL: [http://localhost:8080/]        | <- click button Save and Finish
++------------------------------------------------+
+```
+
+  * Pronto! Benvindo ao Jenkins
+
+
+* passo-03-de-03: Entendendo como iniciar, parar e iniciar automaticamente o serviço Windows do Jenkins
+
+  * Executar o comando: services.msc
+  * Clicar no botão parar / iniciar conforme a operação desejada
+
+![Services-Start-Stop](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/services-start-stop.png) 
 
 
 
 ### 3.4. Guia para Teste ###
 
-* n/a - Este projeto contém apenas documentação e diagramas
+* não aplicável
 
 
 ### 3.5. Guia para Implantação ###
@@ -79,10 +135,15 @@ C:\Jenkins>
 
 ### 3.6. Guia para Demonstração ###
 
-* n/a - Este projeto contém apenas documentação e diagramas
+#### 3.6.1. Instalação de Plugins do Jenkins  ####
+![GuiaDemoInstallPlugins](https://github.com/josemarsilva/eval-jenkins/blob/master/README-GuiaDemo-InstallPlugins.md) 
 
 
 ## Referências ##
 
-* http://josemarfuregattideabreusilva.blogspot.com/2017/11/install-jenkins-on-ubuntu-1604.html
-* http://josemarfuregattideabreusilva.blogspot.com/2016/06/installing-jenkins-centos-65.html
+* Instalação
+  * https://jenkins.io/download/
+
+* Veja também: 
+  * http://josemarfuregattideabreusilva.blogspot.com/2017/11/install-jenkins-on-ubuntu-1604.html
+  * http://josemarfuregattideabreusilva.blogspot.com/2016/06/installing-jenkins-centos-65.html
