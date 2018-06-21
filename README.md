@@ -135,8 +135,7 @@ http://localhost:8080
 
 ### 3.6. Guia para Demonstração ###
 
-#### 3.6.1. Instalação de Plugins do Jenkins  ####
-![GuiaDemoInstallPlugins](https://github.com/josemarsilva/eval-jenkins/blob/master/README-GuiaDemo-InstallPlugins.md) 
+#### [3.6.1. Guia Demonstração Installação Plugins](https://github.com/josemarsilva/eval-jenkins/blob/master/README-GuiaDemo-InstallPlugins.md)  ####
 
 
 ## Referências ##
