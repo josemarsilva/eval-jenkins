@@ -15,7 +15,7 @@ Este repositório projeto de avaliação da ferramenta **Jenkins**.
 ./doc/UseCaseDiagram*.jpg
 ../../bancodemassa-doc/*
 ```
-![UseCaseDiagram](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/UseCaseDiagram-01.png) 
+![UseCaseDiagram](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/images/UseCaseDiagram-01.png) 
 
 
 ### 2.2. Diagrama de Implantação (Deploy Diagram) ###
@@ -24,7 +24,7 @@ Este repositório projeto de avaliação da ferramenta **Jenkins**.
 ./doc/DeployDiagram*.jpg
 ../../bancodemassa-doc/*
 ```
-![DeployDiagram](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/DeployDiagram-01.png) 
+![DeployDiagram](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/images/DeployDiagram-01.png) 
 
 
 ### 2.3. Diagrama Modelo Banco de Dados (Database Data Model) ###
@@ -135,8 +135,8 @@ http://localhost:8080
 
 ### 3.6. Guia para Demonstração ###
 
-#### [3.6.1. Installação Plugins](https://github.com/josemarsilva/eval-jenkins/blob/master/README-GuiaDemo-InstallPlugins.md)  ####
-
+#### [3.6.1. Installação Plugins](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaDemonstracao-InstallPlugins.md)  ####
+#### [3.6.2. Novo Job tipo Pipeline Executar Simples (Windows .bat)](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaDemonstracao-NewJobSimpleBat.md)  ####
 
 ## Referências ##
 
