@@ -119,7 +119,7 @@ http://localhost:8080
   * Executar o comando: services.msc
   * Clicar no botão parar / iniciar conforme a operação desejada
 
-![Services-Start-Stop](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/services-start-stop.png) 
+![Services-Start-Stop](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/images/services-start-stop.png) 
 
 
 
@@ -136,7 +136,8 @@ http://localhost:8080
 ### 3.6. Guia para Demonstração ###
 
 #### [3.6.1. Installação Plugins](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaDemonstracao-InstallPlugins.md)  ####
-#### [3.6.2. Novo Job tipo Pipeline Executar Simples (Windows .bat)](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaDemonstracao-NewJobSimpleBat.md)  ####
+#### [3.6.2. Novo Job tipo Pipeline Executar Windows Script (.bat)](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaDemonstracao-NewJobSimpleBat.md)  ####
+#### [3.6.3. Novo Job tipo Pipeline Powershell Script baixado automaticamente do GitHub ](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaDemonstracao-JobPowerShellScript.md)  ####
 
 ## Referências ##
 
