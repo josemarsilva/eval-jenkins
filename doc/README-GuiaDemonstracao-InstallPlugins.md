@@ -1,4 +1,4 @@
-# README-GuiaDemo-InstallPlugins
+# README-GuiaDemonstracao-InstallPlugins
 
 
 ## 1. Introdução ##
@@ -20,10 +20,10 @@ O objetivo desta demonstração é ensinar:
 * Clique no link da opção 'Gerenciar Plugin' Então os pluggins do Jenkins que devem ser atualizados serão apresentados
 * Clique na aba 'Disponíveis' Então os plugins do Jenkins disponíveis para instalação serão apresentados
 * Clique no checkbox ao lado dos seguintes plugins: 
-  * 'built-on-column'
-  * 'GitHub-Plugin'
-  * 'Icon Shim'
-  * 'Cucumber Reports'
+  * built-on-column
+  * GitHub-Plugin
+  * Icon Shim
+  * Cucumber Reports
 
 ![GerenciarPlugins-Instalando-Powershell(1)](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/images/GerenciarPlugins-Instalando-Powershell(1).png) 
 
