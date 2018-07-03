@@ -90,7 +90,7 @@ http://localhost:8080
 | | Pluggins         |                           | <- click button
 | +------------------+                           |
 +------------------------------------------------+
-```browser
+```
 
   * crie o usuário de administração
 
