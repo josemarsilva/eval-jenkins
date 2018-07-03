@@ -138,6 +138,7 @@ http://localhost:8080
 #### [3.6.1. Installação Plugins](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaDemonstracao-InstallPlugins.md)  ####
 #### [3.6.2. Novo Job tipo Pipeline Executar Windows Script (.bat)](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaDemonstracao-NewJobSimpleBat.md)  ####
 #### [3.6.3. Novo Job tipo Pipeline Powershell Script baixado automaticamente do GitHub ](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaDemonstracao-JobPowerShellScript.md)  ####
+#### [3.6.4. Novo Job tipo Pipeline Executar Windows Script (.bat) baixado automaticamente do GitHub ](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaDemonstracao-JobBatScript.md)  ####
 
 ## Referências ##
 

@@ -61,6 +61,7 @@ Echo %datefmt% ; %timefmt% >> helloworld.log
 |       Nome        : [ arg5         ]                                           |
 |       Valor Padrão: [ argument     ]                                           |
 |       Descrição   : [ Argumento #5 ]                                           |
+|                                                                                |
 |   Definition: [Pipeline Script]                                                |
 |   Script:     [               ] <- Script Groovy abaixo                        |
 +--------------------------------------------------------------------------------+
