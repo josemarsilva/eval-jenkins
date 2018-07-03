@@ -139,7 +139,7 @@ http://localhost:8080
 #### [3.6.2. Novo Job tipo Pipeline Executar Windows Script (.bat)](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaDemonstracao-JobNewSimpleBatJob.md)  ####
 #### [3.6.3. Novo Job tipo FreeStyle Powershell Script baixado automaticamente do GitHub ](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaDemonstracao-JobPowerShellScript.md)  ####
 #### [3.6.4. Novo Job tipo Pipeline Executar Windows Script (.bat) baixado automaticamente do GitHub ](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaDemonstracao-JobBatScript.md)  ####
-#### [3.6.5. Atualização da versão do Jenkins ](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaDemonstracao-.md)  ####
+#### [3.6.5. Atualização da versão do Jenkins ](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaDemonstracao-GerenciarJenkinsAtualizacao.md)  ####
 
 ## Referências ##
 
