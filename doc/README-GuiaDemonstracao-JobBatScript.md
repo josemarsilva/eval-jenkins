@@ -54,14 +54,29 @@ O objetivo desta demonstração é ensinar:
 
 ```groovy
 node('master'){
-  stage('Initialization'){
-    echo "Iniciando execução do pipeline"
+    
+  stage('Initialize'){
+    echo "Inicializando ..."
+    bat "cd"
   }
-  stage('step1'){
-    bat ".\\src\\bat\\helloworld.bat ${env.arg}"
+
+  stage('Check-out'){
+    echo "Checking-out source code from git repository ..."
+    git branch: 'master', url: 'https://github.com/josemarsilva/eval-jenkins.git'
   }
+
+  stage('Change-directory'){
+    echo "Change directory  ..."
+    bat "cd ${WORKSPACE}"
+  }
+
+  stage('Execute-Bat-Script'){
+    echo "Execute (.bat) script ..."
+    bat ".\\src\\bat\\helloworld.bat arg1 arg2"
+  }
+
   stage('Finished!'){
-    echo "Finished"
+    echo "Finished ."
   }
 }
 ```
@@ -69,9 +84,9 @@ node('master'){
 
 ### 3.3. Executar o Script ###
 
-* Logado no Jenkins clique na opção de menu lateral "Jenkins >> Tudo" Então uma lista com todos os _Jobs_ será apresentada 
-* Clique no link que navega para o _Job_ **Pipeline-Bat-Script** Então um formulário de detalhamento do _Job_ será apresentado
-* Clique no link do botão lateral esquerdo identificado por "Construir com parâmetros" Então um formulário de confirmação de execução com parâmetros será apresentado
+* Logado no Jenkins clique na opção de menu lateral "_Jenkins >> Tudo_" Então uma lista com todos os "_Jobs_" será apresentada 
+* Clique no link que navega para o _Job_ **Pipeline-Bat-Script** Então um formulário de detalhamento do "_Job_" será apresentado
+* Clique no link do botão lateral esquerdo identificado por "_Construir com parâmetros_" Então um formulário de confirmação de execução com parâmetros será apresentado
 * Observe que o parâmetro args está vindo com uma sugestão de valor default
 * Clique no botão construir Então uma nova execução deverá aparecer no histórico de builds com a data e hora corrente
 * Clique no ícone bolinha colorida da cor (azul ou vermelho) para ver o log da console de execução

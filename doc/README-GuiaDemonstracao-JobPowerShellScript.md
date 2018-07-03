@@ -4,7 +4,7 @@
 ## 1. Introdução ##
 
 O objetivo desta demonstração é ensinar:
-* criar no Jenkins um novo _Job_ do tipo _pipeline_ que execute um script powershell 
+* criar no Jenkins um novo "_Job_" do tipo _pipeline_ que execute um script powershell 
 
 ### 2. Premissas ###
 
@@ -71,7 +71,7 @@ Write-Output ""
 ### 3.3. Executar o Script ###
 
 * Logado no Jenkins clique na opção de menu lateral "Jenkins >> Tudo" Então uma lista com todos os _Jobs_ será apresentada 
-* Clique no link que navega para o _Job_ **Repeat-Please-Script** Então um formulário de detalhamento do _Job_ será apresentado
+* Clique no link que navega para o "_Job_" **Repeat-Please-Script** Então um formulário de detalhamento do "_Job_" será apresentado
 * Clique no link do botão lateral esquerdo identificado por "Construir com parâmetros" Então um formulário de confirmação de execução com parâmetros será apresentado
 * Observe que o parâmetro args está vindo com uma sugestão de valor default
 * Clique no botão construir Então uma nova execução deverá aparecer no histórico de builds com a data e hora corrente
