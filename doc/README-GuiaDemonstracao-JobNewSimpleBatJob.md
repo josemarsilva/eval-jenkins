@@ -101,7 +101,7 @@ node('master'){
     bat "C:\\Users\\Josemarsilva\\Downloads\\helloworld.bat ${env.arg5}"
   }
   stage('Finished!'){
-    echo "Iniciando execução do batch no S.O. Windows ${env.parametro}"
+    echo "Finished!"
   }
 }
 ```
