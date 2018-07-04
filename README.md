@@ -48,80 +48,7 @@ Este repositório projeto de avaliação da ferramenta **Jenkins**.
 
 ### 3.3. Guia para Configuração ###
 
-#### 3.3.1. Instalação Jenkins em Windows - passo a passo ####
-
-* passo-01-de-03: download do binário de instalação do Jenkins de acordo com sistema operacional (windows)
-
-```html
-https://jenkins.io/download/
-```
-
-
-* passo-02-de-03: Configuração inicial, instalação e atualização dos plugins mais usados
-
-  * descompactar o binário de instalação em um diretório
-  * executar o binário de instalação 'jenkins.msi'
-  * definir o diretório destino Ex: C:\Program Files (x86)\Jenkins\
-  * acesse o Jenkins pela primeira vez pelo browser
-  
-```browser
-http://localhost:8080
-```
-
-  * copie e cole no campo password o conteúdo do arquivo (C:\Program Files (x86)\Jenkins\secrets\initialAdminPassword) que contém a senha do Jenkins 
-
-```browser
-+-------------------------------------------------------------+
-| Unlock Jenkins                                              |
-|    :       :                                                |
-| C:\Program Files (x86)\Jenkins\secrets\initialAdminPassword |
-| Administrator password                                      | 
-| [                   ]                                       | <- paste here
-+-------------------------------------------------------------+
-```
-
-  * instale os plugins sugeridos
-
-```browser
-+------------------------------------------------+
-| Customize Jenkins                              |
-| +------------------+                           |
-| |Install Suggested |                           |
-| | Pluggins         |                           | <- click button
-| +------------------+                           |
-+------------------------------------------------+
-```
-
-  * crie o usuário de administração
-
-```browser
-+------------------------------------------------+
-| Create first admin user                        |
-|   Username: [admin]                            |
-|   Password: [admin]                            |
-|   E-mail:   [admin@jenkins.com]                | <- click button Save and Continue
-+------------------------------------------------+
-```
-
-  * Configure Jenkins URL
-
-```browser
-+------------------------------------------------+
-|   Jenkins URL: [http://localhost:8080/]        | <- click button Save and Finish
-+------------------------------------------------+
-```
-
-  * Pronto! Benvindo ao Jenkins
-
-
-* passo-03-de-03: Entendendo como iniciar, parar e iniciar automaticamente o serviço Windows do Jenkins
-
-  * Executar o comando: services.msc
-  * Clicar no botão parar / iniciar conforme a operação desejada
-
-![Services-Start-Stop](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/images/services-start-stop.png) 
-
-
+#### [3.3.1. Instalação Jenkins em Windows - passo a passo](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaConfiguracao-InstallJenkins.md) ####
 
 ### 3.4. Guia para Teste ###
 
@@ -135,7 +62,7 @@ http://localhost:8080
 
 ### 3.6. Guia para Demonstração ###
 
-#### [3.6.1. Installação Plugins](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaDemonstracao-InstallPlugins.md)  ####
+#### [3.6.1. Instalação Plugins](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaDemonstracao-InstallPlugins.md)  ####
 #### [3.6.2. Novo Job tipo Pipeline Executar Windows Script (.bat)](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaDemonstracao-JobNewSimpleBatJob.md)  ####
 #### [3.6.3. Novo Job tipo FreeStyle Powershell Script baixado automaticamente do GitHub ](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaDemonstracao-JobPowerShellScript.md)  ####
 #### [3.6.4. Novo Job tipo Pipeline Executar Windows Script (.bat) baixado automaticamente do GitHub ](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaDemonstracao-JobBatScript.md)  ####
