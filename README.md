@@ -67,6 +67,7 @@ Este repositório projeto de avaliação da ferramenta **Jenkins**.
 #### [3.6.3. Novo Job tipo FreeStyle Powershell Script baixado automaticamente do GitHub ](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaDemonstracao-JobPowerShellScript.md)  ####
 #### [3.6.4. Novo Job tipo Pipeline Executar Windows Script (.bat) baixado automaticamente do GitHub ](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaDemonstracao-JobBatScript.md)  ####
 #### [3.6.5. Atualização da versão do Jenkins ](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaDemonstracao-GerenciarJenkinsAtualizacao.md)  ####
+#### [3.6.6. Novo Job tipo Pipeline Executar periodicamente (15 em 15 min) Windows Script (.bat) do GitHub](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaDemonstracao-JobExecucaoPeriodica.md)  ####
 
 ## Referências ##
 

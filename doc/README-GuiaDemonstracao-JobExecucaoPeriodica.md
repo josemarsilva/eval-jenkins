@@ -1,91 +1,94 @@
-# README-GuiaConfiguracao-InstallJenkins.md
+# README-GuiaDemonstracao-JobExecucaoPeriodica.md
 
 
 ## 1. Introdução ##
 
-O objetivo deste guia de configuração:
-* **Instalar do Jenkins no Windows**
-
+O objetivo desta demonstração é ensinar:
+* criar no Jenkins um novo _Job_ do tipo _pipeline_ que execute *periodicamente de 15 em 15 minutos* um Windows (.bat) script
 
 ### 2. Premissas ###
 
-* n/a
-
+* Conectividade com Internet para download do código fonte do GitHub
 
 ### 3. Passo-a-passo ###
 
-### 3.1. passo-01-de-03: download do binário de instalação do Jenkins de acordo com sistema operacional (windows)  ###
+### 3.2. Criar um Job para executar o Windows (.bat) script ###
+
+* Logado no Jenkins clique na opção de menu lateral "Jenkins >> Novo Job"
+* Preencha o novo Job com as seguintes informações e conteúdo do script groovy abaixo:
 
 ```html
-https://jenkins.io/download/
++--------------------------------------------------------------------------------+
+| Jenkins                                                                        |
+|  :                                                                             |
+| Enter an item name: [ Pipeline-Periodico-(15-em-15)-Bat-Script ]               |
+| [Pipeline] <- Escolha esta opção                                               |
+|  :                                                                             |
+| +----+                                                                         |
+| | OK | <- Clique aqui                                                          |
+| +----+                                                                         |
++--------------------------------------------------------------------------------+
+```
+
+* Complete a configuração do Job conforme abaixo:
+
+```html
++--------------------------------------------------------------------------------+
+| [X] GitHub project                                                             |
+|     Project Url:  [ https://github.com/josemarsilva/eval-jenkins/ ]            |
+| Build Triggers:                                                                |
+|   [X] Construir Periodicamente                                                 |
+|       [ # <minuto> <hora> <dia-do-mes> <dia-da-semana (0:Dom-7:Dom) >    ]     |
+|       [ 15,30,45,00 * * *                                                ]     |
+|                                                                                |
+|   Definition: [Pipeline Script]                                                |
+|   Script:     [               ] <- Script Groovy abaixo                        |
++--------------------------------------------------------------------------------+
+```
+
+* Script Groovy
+
+```groovy
+node('master'){
+    
+  stage('Initialize'){
+    echo "Inicializando ..."
+    bat "cd"
+  }
+
+  stage('Check-out'){
+    echo "Checking-out source code from git repository ..."
+    git branch: 'master', url: 'https://github.com/josemarsilva/eval-jenkins.git'
+  }
+
+  stage('Change-directory'){
+    echo "Change directory  ..."
+    bat "cd ${WORKSPACE}"
+  }
+
+  stage('Execute-Bat-Script'){
+    echo "Execute (.bat) script ..."
+    bat ".\\src\\bat\\helloworld.bat periodico_15_em_15_minutos"
+  }
+
+  stage('Finished!'){
+    echo "Finished ."
+  }
+}
 ```
 
 
-### 3.2. passo-02-de-03: Configuração inicial, instalação e atualização dos plugins mais usados ###
+### 3.3. Executar o Script ###
 
-  * descompactar o binário de instalação em um diretório
-  * executar o binário de instalação 'jenkins.msi'
-  * definir o diretório destino Ex: C:\Program Files (x86)\Jenkins\
-  * acesse o Jenkins pela primeira vez pelo browser
-  
-```browser
-http://localhost:8080
-```
-
-  * copie e cole no campo password o conteúdo do arquivo (C:\Program Files (x86)\Jenkins\secrets\initialAdminPassword) que contém a senha do Jenkins 
-
-```browser
-+-------------------------------------------------------------+
-| Unlock Jenkins                                              |
-|    :       :                                                |
-| C:\Program Files (x86)\Jenkins\secrets\initialAdminPassword |
-| Administrator password                                      | 
-| [                   ]                                       | <- paste here
-+-------------------------------------------------------------+
-```
-
-  * instale os plugins sugeridos
-
-```browser
-+------------------------------------------------+
-| Customize Jenkins                              |
-| +------------------+                           |
-| |Install Suggested |                           |
-| | Pluggins         |                           | <- click button
-| +------------------+                           |
-+------------------------------------------------+
-```
-
-  * crie o usuário de administração
-
-```browser
-+------------------------------------------------+
-| Create first admin user                        |
-|   Username: [admin]                            |
-|   Password: [admin]                            |
-|   E-mail:   [admin@jenkins.com]                | <- click button Save and Continue
-+------------------------------------------------+
-```
-
-  * Configure Jenkins URL
-
-```browser
-+------------------------------------------------+
-|   Jenkins URL: [http://localhost:8080/]        | <- click button Save and Finish
-+------------------------------------------------+
-```
-
-  * Pronto! Benvindo ao Jenkins
+* Logado no Jenkins clique na opção de menu lateral "_Jenkins >> Tudo_" Então uma lista com todos os "_Jobs_" será apresentada 
+* Clique no link que navega para o _Job_ **Pipeline-Periodico-(15-em-15)-Bat-Script** Então um formulário de detalhamento do "_Job_" será apresentado
+* Clique no link do botão lateral esquerdo identificado por "_Construir agora_" Então um formulário de confirmação de execução será apresentado
+* Clique no botão construir Então uma nova execução deverá aparecer no histórico de builds com a data e hora corrente
+* Clique no ícone bolinha colorida da cor (azul ou vermelho) para ver o log da console de execução
 
 
-### 3.3. passo-03-de-03: Entendendo como iniciar, parar e iniciar automaticamente o serviço Windows do Jenkins ###
-
-  * Executar o comando: services.msc
-  * Clicar no botão parar / iniciar conforme a operação desejada
-
-![Services-Start-Stop](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/images/services-start-stop.png) 
 
 
 ## Referências ##
 
-* n/a
+* https://hodgkins.io/automating-with-jenkins-and-powershell-on-windows-part-1
