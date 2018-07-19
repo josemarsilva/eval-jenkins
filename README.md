@@ -69,13 +69,16 @@ Este repositório projeto de avaliação da ferramenta **Jenkins**.
 #### [3.6.5. Atualização da versão do Jenkins ](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaDemonstracao-GerenciarJenkinsAtualizacao.md)  ####
 #### [3.6.6. Novo Job tipo Pipeline Executar periodicamente (15 em 15 min) Windows Script (.bat) do GitHub](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaDemonstracao-JobExecucaoPeriodica.md)  ####
 #### [3.6.7. Configurar Job para descartar periodicamente o Log de execução](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaDemonstracao-JobConfigDiscardLog.md)  ####
+#### [3.6.8. Novo Job tipo FreeStyle Compila e Executa programa baixado do GitHub](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaDemonstracao-JobPipelineJavacJavaRunGit.md)  ####
+
 
 
 ## Referências ##
 
 * Instalação
   * https://jenkins.io/download/
-
+* Jenkins vs Git
+  * https://www.youtube.com/watch?v=bGqS0f4Utn4&t=330s&index=82&list=LL6itKYf90j2igCkIWsh8_jQ
 * Veja também: 
   * http://josemarfuregattideabreusilva.blogspot.com/2017/11/install-jenkins-on-ubuntu-1604.html
   * http://josemarfuregattideabreusilva.blogspot.com/2016/06/installing-jenkins-centos-65.html

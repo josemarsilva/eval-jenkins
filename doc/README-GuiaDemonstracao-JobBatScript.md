@@ -96,4 +96,5 @@ node('master'){
 
 ## Referências ##
 
+* https://www.youtube.com/watch?v=Z3S2gMBUkBo
 * https://hodgkins.io/automating-with-jenkins-and-powershell-on-windows-part-1
