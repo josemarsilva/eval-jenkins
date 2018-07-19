@@ -20,10 +20,16 @@ O objetivo desta demonstração é ensinar:
 ```html
 +--------------------------------------------------------------------------------+
 | Jenkins                                                                        |
-|  :                                                                             |
+|   :                                                                            |
 | Enter an item name: [ Freestyle-ExecShell-JavacJavaRun ]                       |
-| [Construir um projeto de software Freestyle] <- Escolha esta opção             |
-|  :                                                                             |
+|   :                                                                            |
+| Gerenciamento de Código Fonte                                                  |
+|   {x] Git                                                                      |
+|       Repository URL: [ https://github.com/josemarsilva/eval-jenkins.git     ] |
+|         :                                                                      |
+| Build                                                                          |
+|   [Construir um projeto de software Freestyle] <- Escolha esta opção           |
+|     :                                                                          |
 | +----+                                                                         |
 | | OK | <- Clique aqui                                                          |
 | +----+                                                                         |
@@ -36,10 +42,14 @@ O objetivo desta demonstração é ensinar:
 +--------------------------------------------------------------------------------+
 | Build                                                                          |
 |   [Add Build Step] <- clique no botão                                          |
-|   [ Execute Shell ] <- escolha a opção                                         |
+|   [ Executar no comando do Windows ] <- escolha a opção                        |
 |     Comando: [ cd "C:\MYGIT~1\workspace-github\eval-jenkins\src\java"      ]   |
 |              [ javac Hello.java                                            ]   |
 |              [ java -cp . Hello                                            ]   |
+|         :                                                                      |
+| +----+                                                                         |
+| | OK | <- Clique aqui                                                          |
+| +----+                                                                         |
 +--------------------------------------------------------------------------------+
 ```
 
@@ -56,5 +66,5 @@ O objetivo desta demonstração é ensinar:
 
 ## Referências ##
 
-* https://www.youtube.com/watch?v=Z3S2gMBUkBo
-* https://hodgkins.io/automating-with-jenkins-and-powershell-on-windows-part-1
+* https://www.youtube.com/watch?v=bGqS0f4Utn4&t=330s&index=82&list=LL6itKYf90j2igCkIWsh8_jQ
+* https://www.youtube.com/watch?v=-U-eUHI6euM
