@@ -5,25 +5,17 @@
 
 ## 1. Introdução ##
 
-Este repositório projeto de avaliação da ferramenta **Jenkins**. 
+Este repositório projeto de avaliação da ferramenta **Jenkins**. Nesta avaliação serão demonstradas várias funcionalidades do Jenkins.
 
 ### 2. Documentação ###
 
 ### 2.1. Diagrama de Caso de Uso (Use Case Diagram) ###
 
-```image-file
-./doc/UseCaseDiagram*.jpg
-../../bancodemassa-doc/*
-```
 ![UseCaseDiagram](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/images/UseCaseDiagram-01.png) 
 
 
 ### 2.2. Diagrama de Implantação (Deploy Diagram) ###
 
-```image-file
-./doc/DeployDiagram*.jpg
-../../bancodemassa-doc/*
-```
 ![DeployDiagram](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/images/DeployDiagram-01.png) 
 
 
@@ -49,6 +41,11 @@ Este repositório projeto de avaliação da ferramenta **Jenkins**.
 ### 3.3. Guia para Configuração ###
 
 #### [3.3.1. Instalação Jenkins em Windows - passo a passo](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaConfiguracao-InstallJenkins.md) ####
+
+#### [3.3.2. Instalação Jenkins em Linux Ubuntu - passo a passo](https://github.com/josemarsilva/eval-virtualbox-vm-ubuntu-server#313-jenkins) ####
+
+#### [3.3.3. Instalação Jenkins em Docker - passo a passo](https://github.com/josemarsilva/eval-virtualbox-vm-ubuntu-server#47-docker---jenkins) ####
+
 
 ### 3.4. Guia para Teste ###
 
@@ -80,6 +77,6 @@ Este repositório projeto de avaliação da ferramenta **Jenkins**.
 * Jenkins vs Git
   * https://www.youtube.com/watch?v=bGqS0f4Utn4&t=330s&index=82&list=LL6itKYf90j2igCkIWsh8_jQ
   * https://www.youtube.com/watch?v=-U-eUHI6euM
-* Veja também: 
+* Instalação do Jenkins: 
   * http://josemarfuregattideabreusilva.blogspot.com/2017/11/install-jenkins-on-ubuntu-1604.html
   * http://josemarfuregattideabreusilva.blogspot.com/2016/06/installing-jenkins-centos-65.html
