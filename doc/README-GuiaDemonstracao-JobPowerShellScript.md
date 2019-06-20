@@ -14,7 +14,7 @@ O objetivo desta demonstração é ensinar:
 
 ### 3.2. Criar um Job para executar o script Powershell ###
 
-* Logado no Jenkins clique na opção de menu lateral "Jenkins >> Novo Job"
+* Logado no Jenkins clique na opção de menu lateral `Jenkins >> Novo Job`
 * Preencha o novo Job com as seguintes informações e conteúdo do script groovy abaixo:
 
 ```html

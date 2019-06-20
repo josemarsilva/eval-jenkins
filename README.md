@@ -58,13 +58,20 @@ Este repositório projeto de avaliação da ferramenta **Jenkins**. Nesta avalia
 ### 3.6. Guia para Demonstração ###
 
 #### [3.6.1. Instalação Plugins](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaDemonstracao-InstallPlugins.md)  ####
-#### [3.6.2. Novo Job tipo Pipeline Executar Windows Script (.bat)](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaDemonstracao-JobNewSimpleBatJob.md)  ####
-#### [3.6.3. Novo Job tipo FreeStyle Powershell Script baixado automaticamente do GitHub ](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaDemonstracao-JobPowerShellScript.md)  ####
-#### [3.6.4. Novo Job tipo Pipeline Executar Windows Script (.bat) baixado automaticamente do GitHub ](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaDemonstracao-JobBatScript.md)  ####
-#### [3.6.5. Atualização da versão do Jenkins ](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaDemonstracao-GerenciarJenkinsAtualizacao.md)  ####
-#### [3.6.6. Novo Job tipo Pipeline Executar periodicamente (15 em 15 min) Windows Script (.bat) do GitHub](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaDemonstracao-JobExecucaoPeriodica.md)  ####
-#### [3.6.7. Configurar Job para descartar periodicamente o Log de execução](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaDemonstracao-JobConfigDiscardLog.md)  ####
-#### [3.6.8. Novo Job tipo FreeStyle Execute Shell Compila e Executa um programa Java com codigo fonte baixado do GitHub](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaDemonstracao-JobFreestyleExecShellGitJavacJavaRun.md)  ####
+
+#### [3.6.2. Novo Job tipo Pipeline Executar Windows Script (.bat)](doc/README-GuiaDemonstracao-JobNewSimpleBatJob.md)  ####
+
+#### [3.6.3. Novo Job tipo FreeStyle Powershell Script baixado automaticamente do GitHub ](doc/README-GuiaDemonstracao-JobPowerShellScript.md)  ####
+
+#### [3.6.4. Novo Job tipo Pipeline Executar Windows Script (.bat) baixado automaticamente do GitHub ](doc/README-GuiaDemonstracao-JobBatScript.md)  ####
+
+#### [3.6.5. Atualização da versão do Jenkins ](doc/README-GuiaDemonstracao-GerenciarJenkinsAtualizacao.md)  ####
+
+#### [3.6.6. Novo Job tipo Pipeline Executar periodicamente (15 em 15 min) Windows Script (.bat) do GitHub](doc/README-GuiaDemonstracao-JobExecucaoPeriodica.md)  ####
+
+#### [3.6.7. Configurar Job para descartar periodicamente o Log de execução](doc/README-GuiaDemonstracao-JobConfigDiscardLog.md)  ####
+
+#### [3.6.8. Novo Job tipo FreeStyle Execute Shell Compila e Executa um programa Java com codigo fonte baixado do GitHub](doc/README-GuiaDemonstracao-JobFreestyleExecShellGitJavacJavaRun.md)  ####
 
 
 
