@@ -113,24 +113,24 @@ node('master'){
 
 * Logado no Jenkins clique na opção de menu lateral `Jenkins >> Tudo` Então uma lista com todos os `Jobs` será apresentada
 
-![NewJob-SimpleBat-04.png](doc/images/NewJob-SimpleBat-04.png)
+![NewJob-SimpleBat-04.png](images/NewJob-SimpleBat-04.png)
 
 * Clique no link que navega para o "_Job_" **HelloWorldBat** Então um formulário de detalhamento do "_Job_" será apresentado
 
-![NewJob-SimpleBat-05.png](doc/images/NewJob-SimpleBat-05.png)
+![NewJob-SimpleBat-05.png](images/NewJob-SimpleBat-05.png)
 
 * Clique no link do botão lateral esquerdo identificado por "Construir com parâmetros" Então um formulário de confirmação de execução com parâmetros será apresentado
 
-![NewJob-SimpleBat-06.png](doc/images/NewJob-SimpleBat-06.png)
+![NewJob-SimpleBat-06.png](images/NewJob-SimpleBat-06.png)
 
 * Observe que o parâmetro args está vindo com uma sugestão de valor default
 * Clique no botão construir Então uma nova execução deverá aparecer no histórico de builds com a data e hora corrente
 
-![PipelineHelloWorldBat-Construir](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/images/PipelineHelloWorldBat-Construir(1).png) 
+![PipelineHelloWorldBat-Construir](images/PipelineHelloWorldBat-Construir(1).png) 
 
 * Clique no ícone bolinha colorida da cor (azul ou vermelho) para ver o log da console de execução
 
-![PipelineHelloWorldBat-Construir](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/images/PipelineHelloWorldBat-Construir(2).png) 
+![PipelineHelloWorldBat-Construir](images/PipelineHelloWorldBat-Construir(2).png) 
 
 
 
