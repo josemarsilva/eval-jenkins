@@ -88,19 +88,19 @@ node('master'){
     echo "Iniciando execução do pipeline"
   }
   stage('step1'){
-    bat "C:\\Users\\Josemarsilva\\Downloads\\helloworld.bat ${env.arg1}"
+    bat "C:\\temp\\helloworld.bat ${env.arg1}"
   }
   stage('step2'){
-    bat "C:\\Users\\Josemarsilva\\Downloads\\helloworld.bat ${env.arg2}"
+    bat "C:\\temp\\helloworld.bat ${env.arg2}"
   }
   stage('step3'){
-    bat "C:\\Users\\Josemarsilva\\Downloads\\helloworld.bat ${env.arg3}"
+    bat "C:\\temp\\helloworld.bat ${env.arg3}"
   }
   stage('step4'){
-    bat "C:\\Users\\Josemarsilva\\Downloads\\helloworld.bat ${env.arg4}"
+    bat "C:\\temp\\helloworld.bat ${env.arg4}"
   }
   stage('step5'){
-    bat "C:\\Users\\Josemarsilva\\Downloads\\helloworld.bat ${env.arg5}"
+    bat "C:\\temp\\helloworld.bat ${env.arg5}"
   }
   stage('Finished!'){
     echo "Finished!"
