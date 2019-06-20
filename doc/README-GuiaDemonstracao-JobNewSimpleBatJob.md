@@ -38,14 +38,14 @@ Echo %datefmt% ; %timefmt% >> helloworld.log
 
 * Logado no Jenkins clique na opção de menu lateral "_Jenkins >> Novo Job_"
 
-![NewJob-SimpleBat-01.png](doc/images/NewJob-SimpleBat-01.png)
+![NewJob-SimpleBat-01.png](images/NewJob-SimpleBat-01.png)
 
 * Preencha o novo Job com as seguintes informações e conteúdo do script groovy abaixo:
   * Enter an item Name:  `HelloWorldBat`
   * Selecione: `Pipeline`
   * Clique: `OK`
   
-![NewJob-SimpleBat-02.png](doc/images/NewJob-SimpleBat-02.png)
+![NewJob-SimpleBat-02.png](images/NewJob-SimpleBat-02.png)
 
 * Preencha as configurações do Job parametrizando-o para execução com variáveis
   * Este Job terá 5 parâmetros to tipo `string`. Primeiro você precisa clicar na opção "Este build é parametrizado" para o Jenkins habilitar o botão que cria parâmetros
@@ -77,7 +77,7 @@ Echo %datefmt% ; %timefmt% >> helloworld.log
 +--------------------------------------------------------------------------------+
 ```
 
-![NewJob-SimpleBat-03.png](doc/images/NewJob-SimpleBat-03.png)
+![NewJob-SimpleBat-03.png](images/NewJob-SimpleBat-03.png)
 
 
 * Script Groovy
