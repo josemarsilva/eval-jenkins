@@ -14,7 +14,7 @@ O objetivo desta demonstração é ensinar:
 
 ### 3.1. Criar um Script Simples (.bat) ###
 
-* Edite um arquivo com seu script simples e salve no diretorio `%USERPROFILE%\Downloads\helloworld.bat`
+* Edite um arquivo com seu script simples e salve no diretorio `C:\temp\helloworld.bat`
 
 ```bat
 @Echo Off
