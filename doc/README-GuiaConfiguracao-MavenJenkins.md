@@ -23,6 +23,9 @@ O objetivo deste guia de instalação do plugin **Maven Integration** no **Jenki
 
 ![InstallMaven-04.png](images/InstallMaven-04.png)
 
+* Passo 2: A partir da instalação do Maven Integration Plugin o tipo de Job `` torna-se disponível
+
+![InstallMaven-05.png](images/InstallMaven-05.png)
 
 
 ## Referências ##
