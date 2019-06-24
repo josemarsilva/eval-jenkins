@@ -64,6 +64,8 @@ Este repositório projeto de avaliação da ferramenta **Jenkins**. Nesta avalia
 * [3.6.7. Configurar Job para descartar periodicamente o Log de execução](doc/README-GuiaDemonstracao-JobConfigDiscardLog.md)
 * [3.6.8. Novo Job tipo FreeStyle Execute Shell Compila e Executa um programa Java com codigo fonte baixado do GitHub](doc/README-GuiaDemonstracao-JobFreestyleExecShellGitJavacJavaRun.md)
 * [3.6.9. Instalação do plugin Maven Integration](doc/README-GuiaConfiguracao-MavenJenkins.md)
+* [3.6.10. Executa Job do Jenkins (Pipeline) que baixa projeto do GitHub, faz o build do projeto usando o Maven, com UnitTest e compila e gera o binário do aplicativo para distribuição](https://github.com/josemarsilva/devops-labs/blob/master/README_Cenario_CI-Jenkins-Git-Build-Test_DEV-Java-Maven.md)
+
 
 ## Referências ##
 
