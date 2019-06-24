@@ -16,11 +16,11 @@ O objetivo desta demonstração é ensinar:
 
 ### 3.1. Gerenciar plugin  ###
 
-* Logado no Jenkins clique na opção de menu lateral "_Jenkins >> Gerenciar Jenkins_" então uma lista com todos as "_opções de gerenciamento_" será apresentada
+* Logado no Jenkins clique na opção de menu lateral `Jenkins >> Gerenciar Jenkins` então uma lista com todos as "_opções de gerenciamento_" será apresentada
 
 ![GerenciarPlugins-AtualizacaoVersao(1)](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/images/GerenciarPlugins-AtualizacaoVersao(1).png) 
 
-* Clique no link da opção "_Gerenciar Plugin_" então os pluggins do Jenkins que devem ser atualizados serão apresentados
+* Clique no link da opção `Gerenciar Plugin` então os pluggins do Jenkins que devem ser atualizados serão apresentados
 * Clique no botão "_fazer atualização automaticamente_" 
 * Aguardar o download atualização e reinicialização do Jenkins
 

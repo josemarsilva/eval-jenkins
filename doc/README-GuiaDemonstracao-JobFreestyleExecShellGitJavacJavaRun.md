@@ -14,21 +14,14 @@ O objetivo desta demonstração é ensinar:
 
 ### 3.2. Criar um Job para executar Shell ###
 
-* Logado no Jenkins clique na opção de menu lateral "Jenkins >> Novo Job"
+* Logado no Jenkins clique na opção de menu lateral `Jenkins >> Novo Job`
 * Preencha o novo Job com as seguintes informações e conteúdo do script groovy abaixo:
 
 ```html
 +--------------------------------------------------------------------------------+
 | Jenkins                                                                        |
-|   :                                                                            |
-| Enter an item name: [ Freestyle-ExecShell-JavacJavaRun ]                       |
-|   :                                                                            |
-| Gerenciamento de Código Fonte                                                  |
-|   {x] Git                                                                      |
-|       Repository URL: [ https://github.com/josemarsilva/eval-jenkins.git     ] |
-|         :                                                                      |
-| Build                                                                          |
-|   [Construir um projeto de software Freestyle] <- Escolha esta opção           |
+|   Enter an item name: [ Freestyle-ExecShell-JavacJavaRun ]                     |
+|   [Construir um projeto de software free-style]                                |
 |     :                                                                          |
 | +----+                                                                         |
 | | OK | <- Clique aqui                                                          |
@@ -36,20 +29,23 @@ O objetivo desta demonstração é ensinar:
 +--------------------------------------------------------------------------------+
 ```
 
-* Complete a configuração do Job conforme abaixo:
+* Complete a configuração do Job conforme abaixo (conforme o caminho de seu diretório base de GIT):
 
 ```html
 +--------------------------------------------------------------------------------+
+| Gerenciamento de Código Fonte                                                  |
+|   {x] Git                                                                      |
+|       Repository URL: [ https://github.com/josemarsilva/eval-jenkins.git   ]   |
+|         :                                                                      |
 | Build                                                                          |
-|   [Add Build Step] <- clique no botão                                          |
-|   [ Executar no comando do Windows ] <- escolha a opção                        |
+|   [Adicionar passo do build - Executar no comando do Windows ] <- escolha      |
 |     Comando: [ cd "C:\MYGIT~1\workspace-github\eval-jenkins\src\java"      ]   |
 |              [ javac Hello.java                                            ]   |
 |              [ java -cp . Hello                                            ]   |
 |         :                                                                      |
-| +----+                                                                         |
-| | OK | <- Clique aqui                                                          |
-| +----+                                                                         |
+| +--------+                                                                     |
+| | SALVAR | <- Clique aqui                                                      |
+| +--------+                                                                     |
 +--------------------------------------------------------------------------------+
 ```
 

@@ -16,16 +16,15 @@ O objetivo desta demonstração é ensinar:
 
 * Logado no Jenkins clique na opção de menu lateral "Jenkins"
 * Clique no link do _Job_ que será configurado (neste caso "Pipeline-Periodico-(15-em-15)-Bat-Script/" ) 
-* Em seguida clique no botão lateral esquerdo "_Configurar_" e observe o formulário de configuração do _Job_
+* Em seguida clique no botão lateral esquerdo `Configurar` e observe o formulário de configuração do _Job_
 
 ```html
 +--------------------------------------------------------------------------------+
 | General                                                                        |
 | [X] Descartar builds antigos                                                   |
-| [Pipeline] <- Escolha esta opção                                               |
-|            Strategy   : [Log Rotation]                                         |
-|            Dias manter: [ 10 ]                                                 |
-|            Máx. Builds: [ 5  ]                                                 |
+|     Strategy   : [Log Rotation]                                                |
+|     Dias manter: [ 10 ]                                                        |
+|     Máx. Builds: [ 5  ]                                                        |
 |  :                                                                             |
 | +----+                                                                         |
 | | OK | <- Clique aqui                                                          |

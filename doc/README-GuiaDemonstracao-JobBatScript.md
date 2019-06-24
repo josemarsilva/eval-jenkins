@@ -14,7 +14,7 @@ O objetivo desta demonstração é ensinar:
 
 ### 3.2. Criar um Job para executar o Windows (.bat) script ###
 
-* Logado no Jenkins clique na opção de menu lateral "Jenkins >> Novo Job"
+* Logado no Jenkins clique na opção de menu lateral `Jenkins >> Novo Job`
 * Preencha o novo Job com as seguintes informações e conteúdo do script groovy abaixo:
 
 ```html
@@ -41,10 +41,10 @@ O objetivo desta demonstração é ensinar:
 |       Valor Padrão: [ arg              ]                                       |
 |       Descrição   : [ Argumento        ]                                       |
 |                                                                                |
-| [X] GitHub project                                                             |
-|     Project Url:  [ https://github.com/josemarsilva/eval-jenkins/ ]            |
+|   [X] GitHub project                                                           |
+|       Project Url:  [ https://github.com/josemarsilva/eval-jenkins/ ]          |
 |                                                                                |
-|                                                                                |
+| Pipeline:                                                                      |
 |   Definition: [Pipeline Script]                                                |
 |   Script:     [               ] <- Script Groovy abaixo                        |
 +--------------------------------------------------------------------------------+
@@ -84,7 +84,7 @@ node('master'){
 
 ### 3.3. Executar o Script ###
 
-* Logado no Jenkins clique na opção de menu lateral "_Jenkins >> Tudo_" Então uma lista com todos os "_Jobs_" será apresentada 
+* Logado no Jenkins clique na opção de menu lateral `Jenkins >> Tudo` Então uma lista com todos os "_Jobs_" será apresentada 
 * Clique no link que navega para o _Job_ **Pipeline-Bat-Script** Então um formulário de detalhamento do "_Job_" será apresentado
 * Clique no link do botão lateral esquerdo identificado por "_Construir com parâmetros_" Então um formulário de confirmação de execução com parâmetros será apresentado
 * Observe que o parâmetro args está vindo com uma sugestão de valor default

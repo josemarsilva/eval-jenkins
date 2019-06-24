@@ -73,7 +73,7 @@ Este repositório projeto de avaliação da ferramenta **Jenkins**. Nesta avalia
 
 #### [3.6.8. Novo Job tipo FreeStyle Execute Shell Compila e Executa um programa Java com codigo fonte baixado do GitHub](doc/README-GuiaDemonstracao-JobFreestyleExecShellGitJavacJavaRun.md)  ####
 
-
+#### [3.6.9. Instalação do plugin Maven Integration](doc/README-GuiaConfiguracao-MavenJenkins.md) ####
 
 ## Referências ##
 

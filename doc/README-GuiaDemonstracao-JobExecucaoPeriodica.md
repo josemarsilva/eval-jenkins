@@ -14,7 +14,7 @@ O objetivo desta demonstração é ensinar:
 
 ### 3.2. Criar um Job para executar o Windows (.bat) script ###
 
-* Logado no Jenkins clique na opção de menu lateral "Jenkins >> Novo Job"
+* Logado no Jenkins clique na opção de menu lateral `Jenkins >> Novo Job`
 * Preencha o novo Job com as seguintes informações e conteúdo do script groovy abaixo:
 
 ```html
@@ -38,8 +38,8 @@ O objetivo desta demonstração é ensinar:
 |     Project Url:  [ https://github.com/josemarsilva/eval-jenkins/ ]            |
 | Build Triggers:                                                                |
 |   [X] Construir Periodicamente                                                 |
-|       [ # <minuto> <hora> <dia-do-mes> <dia-da-semana (0:Dom-7:Dom) >    ]     |
-|       [ 15,30,45,00 * * *                                                ]     |
+|       [ # MINUTE HOUR DAY-OF-MONTH MONTH DAY-OF-WEEK(0:Dom-7:Dom)        ]     |
+|       [ 15,30,45,00 * * * *                                              ]     |
 |                                                                                |
 |   Definition: [Pipeline Script]                                                |
 |   Script:     [               ] <- Script Groovy abaixo                        |
@@ -80,9 +80,9 @@ node('master'){
 
 ### 3.3. Executar o Script ###
 
-* Logado no Jenkins clique na opção de menu lateral "_Jenkins >> Tudo_" Então uma lista com todos os "_Jobs_" será apresentada 
+* Logado no Jenkins clique na opção de menu lateral `Jenkins >> Tudo` Então uma lista com todos os "_Jobs_" será apresentada 
 * Clique no link que navega para o _Job_ **Pipeline-Periodico-(15-em-15)-Bat-Script** Então um formulário de detalhamento do "_Job_" será apresentado
-* Clique no link do botão lateral esquerdo identificado por "_Construir agora_" Então um formulário de confirmação de execução será apresentado
+* Clique no link do botão lateral esquerdo identificado por `Construir agora` Então um formulário de confirmação de execução será apresentado
 * Clique no botão construir Então uma nova execução deverá aparecer no histórico de builds com a data e hora corrente
 * Clique no ícone bolinha colorida da cor (azul ou vermelho) para ver o log da console de execução
 
