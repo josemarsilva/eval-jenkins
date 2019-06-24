@@ -15,13 +15,13 @@ O objetivo deste guia de instalação do plugin **Maven Integration** no **Jenki
 
 * Passo 1: Instalar o Plugin do **Maven Integration**
 
-![InstallMaven-01.png](images\InstallMaven-01.png)
+![InstallMaven-01.png](images/InstallMaven-01.png)
 
-![InstallMaven-02.png](images\InstallMaven-02.png)
+![InstallMaven-02.png](images/InstallMaven-02.png)
 
-![InstallMaven-03.png](images\InstallMaven-03.png)
+![InstallMaven-03.png](images/InstallMaven-03.png)
 
-![InstallMaven-04.png](images\InstallMaven-04.png)
+![InstallMaven-04.png](images/InstallMaven-04.png)
 
 
 
