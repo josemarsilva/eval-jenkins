@@ -41,7 +41,8 @@ Este repositório projeto de avaliação da ferramenta **Jenkins**. Nesta avalia
 * [3.3.1. Instalação Jenkins em Windows - passo a passo](https://github.com/josemarsilva/eval-jenkins/blob/master/doc/README-GuiaConfiguracao-InstallJenkins.md)
 * [3.3.2. Instalação Jenkins em Linux Ubuntu - passo a passo](https://github.com/josemarsilva/eval-virtualbox-vm-ubuntu-server#313-jenkins)
 * [3.3.3. Instalação Jenkins em Docker - passo a passo](https://github.com/josemarsilva/eval-virtualbox-vm-ubuntu-server#47-docker---jenkins)
-
+* [3.3.4. `Em construção` Instalação Jenkins em AWS - Amazon Web Service cloud maquina EC2 Linux](doc/README-GuiaConfiguracao-InstallJenkinsAwsEC2Linux.md)
+* [3.3.5. `Em construção` Instalação Jenkins em GCloud - Google Cloud marketplace Bitnami](doc/README-GuiaConfiguracao-InstallJenkinsGCloudMarketplaceBitnami.md)
 
 ### 3.4. Guia para Teste ###
 
